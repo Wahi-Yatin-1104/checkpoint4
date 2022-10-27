@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "compiles and runs",
+      "setup": "rm *.o carnival; make",
+      "run": "./carnival",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
